@@ -5,6 +5,6 @@ class Foo{
 public:
 	Foo::Foo();
 	Foo::~Foo();
-	const char * bar(const char * name);
+	void bar(const char * name, char * buf, int buf_size);
 };
 
